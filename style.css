@@ -3,7 +3,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.header {
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
   padding: 10px 150px;
@@ -42,13 +43,13 @@ a {
   height: auto;
 }
 
-.main-top .title {
+.title {
   font-weight: bolder;
   font-size: 48px;
   color: #f9faf8;
 }
 
-.main-top .text {
+.text {
   color: #e5e7eb;
   font-size: 18px;
 }
@@ -121,4 +122,34 @@ p {
 .author {
   text-align: right;
   padding: 9px 0px;
+}
+
+.blue-box {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.blue-box button {
+  border: 1px solid;
+  border-color: white;
+  margin: 10px;
+}
+
+.left .title {
+  font-size: 18px;
+}
+
+.bottom {
+  padding: 50px 80px;
+}
+
+.footer {
+  justify-content: center;
+}
+.footer p {
+  text-align: center;
+  color: #e5e7eb;
 }
